@@ -1,6 +1,47 @@
 body {
-  background-color: #faf9f9;
+    background-color: #E4F9F5;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
 }
-.firstBlock {
-  background-color: #5ea3a3;
+
+h1 {
+    font-size: 5.625rem;
+    font-family: 'Montez', cursive;
+    margin: 50px auto 0 auto;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+h2,
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 100px;
+}
+
+.tc {
+    position: absolute;
+    right: 300px;
+    top: 50px;
+}
+
+.bc {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.profile {
+    margin-top: 10px;
+}
+
+.profile img,
+.skill-row img {
+    max-width: 150px;
+    border-radius: 200px;
 }
